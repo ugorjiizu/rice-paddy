@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  api:
+    build: ./api
+    container_name: model_c
+    ports:
+      - '8000:8000'
+    
+  frontend:
+    build: ./frontend
+    container_name: front_app_c
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true

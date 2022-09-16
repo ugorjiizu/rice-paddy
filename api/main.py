@@ -1,4 +1,3 @@
-from msilib.schema import Condition
 from fastapi import FastAPI, File, UploadFile, Depends
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
@@ -8,7 +7,6 @@ import cv2
 from PIL import Image
 import tensorflow as tf
 import os
-import h5py
 
 app = FastAPI()
 
