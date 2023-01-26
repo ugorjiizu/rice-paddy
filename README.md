@@ -23,11 +23,12 @@ Jupyter Notebook (optional, for running the notebooks)
 **Installation**
 
 Clone the repository:
-git clone (https://github.com/ugorjiizu/rice-paddy)
+git clone https://github.com/ugorjiizu/rice-paddy.git
 
 To train the model:
 
 I suggest following the notebook and going from there or you can use the already made model in the api folder.
+For more information check the api and frontend folders
 
 **Notebooks**
 
