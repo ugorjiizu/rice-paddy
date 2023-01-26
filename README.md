@@ -25,9 +25,29 @@ Jupyter Notebook (optional, for running the notebooks)
 Clone the repository:
 git clone https://github.com/ugorjiizu/rice-paddy.git
 
+Note: The Docker.yaml file creates an image of the whole app.
 To train the model:
 
 I suggest following the notebook and going from there or you can use the already made model in the api folder.
+API FOLDER
+images
+.dockerignore
+Dockerfile
+basemodel.h5
+main.py
+main_tfserv.py
+requirements.txt
+
+The api folder contains
+A requirment.txt file to create an environment to run the model.
+A model.h5, which is the trained model file.
+The main.py file contaons our api commands using fast api and a combination of fastapi and docker respectively.
+The Dockerfile creates an image of the model on docker.
+The Image folder contains some images which can be used for testing.
+
+The Frontend folder
+
+This contains a readme file to run the react app and a docker file to create an image of the frontend app 
 For more information check the api and frontend folders
 
 **Notebooks**
