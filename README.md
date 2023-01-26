@@ -1,7 +1,7 @@
 **Rice Leaf Image Classification Project**
 
 This project aims to classify rice leaf images using a deep learning model to detect the state of the crop, 
-thereby eliminating the need for constant present expertise and manual supervision of the crop.
+thereby helping provide expertise and eliminating the need for manual supervision of the crop.
 The model was trained on the dataset (https://www.kaggle.com/competitions/paddy-disease-classification), 
 which consists of over 10,000 color images in 10 distinct classes.
 This project is accompanied with a react application, which users can use to take a picture of the leaf.
@@ -18,6 +18,16 @@ TensorFlow 2.x
 NumPy
 Matplotlib
 Jupyter Notebook (optional, for running the notebooks)
+
+
+**Installation**
+
+Clone the repository:
+git clone (https://github.com/ugorjiizu/rice-paddy)
+
+To train the model:
+
+I suggest following the notebook and going from there or you can use the already made model in the api folder.
 
 **Notebooks**
 
